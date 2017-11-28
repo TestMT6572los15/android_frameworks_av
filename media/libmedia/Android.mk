@@ -59,6 +59,9 @@ LOCAL_SRC_FILES += \
     omx/1.0/WOmxNode.cpp \
     omx/1.0/WOmxObserver.cpp \
 
+LOCAL_SRC_FILES += \
+    MTKAudioStubs.cpp
+
 LOCAL_SHARED_LIBRARIES := \
         libui liblog libcutils libutils libbinder libsonivox libicuuc libicui18n libexpat \
         libcamera_client libstagefright_foundation \
